@@ -8,3 +8,4 @@ echo "given number $NUMBER is greater than 100"
 else
 echo "given number $NUMBER is not greater than 100"
 fi
+

@@ -32,7 +32,7 @@ fi  # fi means reverse of id, indicating condition end
 # git mysql postfix net-tools
 # package=git for the first time
 
-for package in $@ 
+for package in $@
 do
     yum list installed $package &>> $LOGFILE #check installed or not
     if [ $? -ne 0 ]  #if not installed
